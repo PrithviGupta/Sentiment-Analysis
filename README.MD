@@ -2,8 +2,6 @@
 
 This code analyzes the sentiment of Shakespeare's plays using the dplyr, tidytext, and ggplot2 libraries in R. The data used in this analysis is contained in the shakespeare.rda file. The code performs the following tasks:
 
-This code analyzes the sentiment of Shakespeare's plays using the dplyr, tidytext, and ggplot2 libraries in R. The data used in this analysis is contained in the shakespeare.rda file. The code performs the following tasks:
-
 1. Load shakespeare.rda file into R and print the data.
 2. Count the number of titles/types using the count() function.
 3. Load the tidytext library.
@@ -17,5 +15,5 @@ This code analyzes the sentiment of Shakespeare's plays using the dplyr, tidytex
 11. Extract the top 10 words from word_counts, group by sentiment, take the top 10 for each sentiment, make the word column a factor in order of n, and create a new object top_words.
 12. Use ggplot2 library to create a bar chart of the top 10 words for each sentiment using word on the x-axis and n on the y-axis, and facet_wrap for sentiments with free scales. Finally, move x to y and y to x.
 13. Calculate a contribution score for each word in each play in a new object sentiment_contributions using the "afinn" lexicon.
-14. Create a word cloud of the sentiment analysis results using the wordcloud library.
-    Note: The results of the analysis may vary depending on the sentiment lexicon used and the version of the libraries installed.
+14. Create a word cloud of the sentiment analysis results using the wordcloud library.    
+Note: The results of the analysis may vary depending on the sentiment lexicon used and the version of the libraries installed.
